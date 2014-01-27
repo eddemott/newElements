@@ -1,0 +1,25 @@
+<!-- Section Elements -->
+	<section></section>
+	<nav></nav>
+	<article></article>
+	<aside></aside>
+	<header></header>
+	<footer></footer>
+<!-- Grouping Elements -->
+	main
+	figure
+	figcation
+	reversed
+<!-- Text-level Elements -->
+	dowload
+	pain
+	mark
+	ruby, rt & rp
+	time
+	wbr
+<!-- Interactive Elements -->
+	details
+	summary
+	menu - toolbar
+	menu - popup
+	dialog

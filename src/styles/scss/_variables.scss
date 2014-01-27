@@ -1,5 +1,65 @@
-/**
- * Place for custom variables values
- * Insert variables from /vendor/foundation/scss/foundation/_settings.scss
- * 
- */
+$row-width: rem-calc(4000);
+$column-gutter: rem-calc(30);
+$total-columns: 12;
+$rem-base: 16px;
+$panel-bg: white;
+
+.max-width {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.line {
+	line-height: 2.4;
+}
+
+ul {
+	li {
+		text-decoration: none;
+	}
+}
+
+footer, nav, header {
+	padding-left: 20px;
+}
+
+section, article {
+	float: left;
+	width: 75%;
+	height: 150px;
+	padding-left: 20px;
+}
+
+header {
+	background: red;
+	height: 50px;
+	
+}
+nav {
+	background: gray;
+	height: 50px;
+}
+section {
+	background: green;
+
+}
+article {
+	background: purple;
+}
+aside {
+	background-color: yellow;
+	float: right;
+	width: 25%;
+	height: 300px;
+	text-align: center;
+}
+
+footer {
+	background: pink;
+	clear: both;
+	height: 50px;
+}

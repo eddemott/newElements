@@ -9,11 +9,18 @@ module.exports = function(config) {
 		// list of files / patterns to load in the browser
 		files: [
 			
-			'dist/vendor/angular/angular.min.js',			'dist/vendor/angular-mocks/angular-mocks.min.js',			'src/**/*.js',			'test/unit/**/*.spec.js',			'dist/vendor/angular-route/angular-route.min.js'
+			'dist/vendor/angular/angular.min.js',
+			'dist/vendor/angular-mocks/angular-mocks.min.js',
+			'src/**/*.js',
+			'test/unit/**/*.spec.js',
+			'dist/vendor/angular-route/angular-route.min.js'
 		],
 
 		// list of files to exclude
-		exclude: [],
+		exclude: [
+			'src/app/app.js',
+			'src/app/templates.js'
+		],
 
 		// test results reporter to use
 		// possible values: dots || progress || growl
